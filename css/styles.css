@@ -1,0 +1,129 @@
+h1,h2,h3,h4,h5,h6{
+    font-weight: 300;
+}
+body{
+    font-family: 'Lato', sans-serif !important;
+}
+
+@media screen and (min-width: 768px){
+    .barra.bg-dark{
+        background-color: transparent !important;
+    }
+    .header{
+        position: relative;
+    }
+    .header .barra{
+        position: absolute;
+        width: 100%;
+        z-index: 2;
+    }
+}
+.navbar-brand{
+    font-size: 2rem !important;
+    font-weight: bold !important;
+}
+.navbar-brand span{
+    font-weight: 900 !important;
+    color: #ffc107;
+}
+.navbar-dark .navbar-nav .nav-item .nav-link{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: .8rem;
+    text-align: center;
+}
+.dropdown .dropdown-menu .dropdown-item{
+    color: #fff;
+    text-transform: uppercase;
+}
+.dropdown .dropdown-menu .dropdown-item:hover{
+    background-color: #ffc107;
+} 
+
+.caption h3{
+    font-size: 2.4rem;
+}
+
+/* Nosotros */
+
+.sobre-nosotros h3{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* Anuncios */
+.anuncios .card .card-body{
+    padding: 1rem !important;
+}
+.card-precio{
+    font-size: 1.2rem;
+    color: #199400;
+}
+.card-descripcion img{
+    margin-right: .5rem;
+}
+
+/* Encuentra */
+.encuentra{
+    background-image: url(../img/contacto.jpg)
+    ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.encuentra .row{
+    height: 25rem;
+}
+
+.encuentra h3{
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+/* Blog */
+
+.entrada h3::after{
+    content: '';
+    display: block;
+    height: .2rem;
+    width: 8rem;
+    background-color: #199400;
+    margin-top: .5rem;
+}
+.meta span{
+    color: #dda706;
+}
+
+
+/* Testimoniales */
+.testimoniales{
+    background-color: #199400;
+}
+.testimonial-texto{
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+    font-weight: 300;
+}
+.testimoniales .carousel-item{
+    padding-left: 2rem;
+}
+.testimoniales .testimonial-texto::before{
+    content: '"';
+    font-size: 4rem;
+    position: absolute;
+    left: 0;
+    top: 1rem;
+}
+.testimoniales .testimonial-texto span{
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+
+/* Footer */
+.footer.bg-dark{
+    background-color: #333333 !important;
+}
+.footer .nav-link{
+    color: #fff;
+    text-transform: uppercase;
+}
